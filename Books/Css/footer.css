@@ -1,0 +1,291 @@
+﻿.footer,
+.footer * {
+    box-sizing: border-box;
+}
+
+.footer {
+    background: #151a27;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1352px;
+    height: 360px;
+    position: relative;
+}
+
+.content {
+    background: var(--neutural-dark, #1d212e);
+    padding: 44px 80px 56px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.logo-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.example-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.logo-mark {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.text {
+    color: var(--neutural-white, #ffffff);
+    text-align: center;
+    font: 700 25px/30px "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dumy-music-is-the-source-for-royalty-free-music-elevate-your-projects-with-our-diverse-collection-simplify-your-licensing-process-and-unleash-your-creativity-join-us-today {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+    width: 415px;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.head {
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.product2 {
+    color: var(--neutural-grey-2, #5b5c61);
+    text-align: left;
+    font: var(--subheading-16, 500 16px/24px "Poppins", sans-serif);
+    position: relative;
+    width: 140px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.vocal-music {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.instrument-music {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.category {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.licensing {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.support2 {
+    color: var(--neutural-grey-2, #5b5c61);
+    text-align: left;
+    font: var(--subheading-16, 500 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.faq {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.contact-us {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.privacy-policy {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.terms-of-service {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 286px;
+    position: relative;
+}
+
+.social-media2 {
+    color: var(--neutural-grey-2, #5b5c61);
+    text-align: left;
+    font: var(--subheading-16, 500 16px/24px "Poppins", sans-serif);
+    position: relative;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.for-recent-updates-and-news-follow-our-social-media-feeds {
+    color: var(--neutural-grey-1, #a7aab5);
+    text-align: left;
+    font: var(--body-16, 400 16px/24px "Poppins", sans-serif);
+    position: relative;
+    align-self: stretch;
+}
+
+.media-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.youtube {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.instagram {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.facebook {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.twitter {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.mail {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.copyright {
+    background: #151a27;
+    padding: 24px 4px 24px 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.copyright-musicalogia-com {
+    color: var(--neutural-grey-2, #5b5c61);
+    text-align: left;
+    font: 400 16px/24px "Poppins", sans-serif;
+    position: relative;
+}
